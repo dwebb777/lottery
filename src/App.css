@@ -1,38 +1,37 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+body {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  background-color: rgb(245, 191, 182);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+.App {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 3em;
 }
 
-.App-link {
-  color: #61dafb;
+.Lottery {
+  padding: 1em;
+  margin-top: 3em;
+  text-align: center;
+  border: 1px solid tomato;
+  border-radius: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Lottery h1 {
+  font-size: 3em;
+  color: rgb(236, 57, 26);
+}
+
+button {
+  background-color: tomato;
+  padding: 1em;
+  width: 10rem;
+  margin-top: 2em;
+  border: none;
+  border-radius: 10px;
+  color: rgb(240, 215, 211);
 }
